@@ -1,0 +1,162 @@
+a:link{
+        color: black;
+        }
+a:visited{
+            color: white;
+        }
+a:hover{
+            color: black;
+        }
+a:active{
+            color: #ff0000
+        }
+body{
+    background-image: url(pictures/b6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cortona;
+    }
+form{
+        margin: 0 auto;
+        width: 500px;
+    }
+.para{
+        text-align: right;
+        font-size: 30;
+        font-family: Bradley Hand ITC;
+        color:white;
+    }
+
+.circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+        }
+.title{
+        font-family: forte;
+        font-weight: bold;
+        font-size: 50;
+        color:white;
+    }
+h1{
+        font-family: Bradley Hand ITC;
+        font-weight: bold;
+        font-size: 50;
+        color: white;
+    }
+        
+a{
+    text-decoration: none;
+    }
+        
+p{
+    font-size: 30px;
+    color: white;
+    font-family:Bradley Hand ITC;
+}
+button{
+        font-size: 25;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        
+}       
+input,textarea{
+    border-radius: 5px;
+    font-size: 20px;
+     color: black;
+     background-color: white;
+}
+input:not([type="submit","reset"]){ 
+	font-size:15px;
+	padding:9px;
+	border:1px solid #CCCCCC;
+	
+}
+nav{
+    text-align: center;
+    font-size: 25;
+    color: black;    
+}
+fieldset{
+    border-radius: 10px; 
+    border: 3px solid #FFFFFF;
+    border: 12px groove (internal value);
+    width: 400px;
+    text-align: center;
+}
+
+legend{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.form-validation input
+{ 
+	border: 1px solid #CCCCCC;
+	display:inline-block;
+    font-size: 15px;
+    padding: 7px 9px;
+    margin: 0;
+    transition: all .3s;
+    
+} 
+.form-validation label {
+	display: inline-block;
+	width:100px;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #111111;
+    color: white;
+    min-width: 30px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid black;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #111111;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 4px 2px;
+    opacity: 0.9;
+    width: 100px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.icon_info{
+    color: black;
+    text-align-last: right;
+    font-size: 2em;
+    position:inherit;
+    display: inline-block;
+}
+.reg{
+    font-size: 2em;
+    font-family: Bradley Hand ITC;
+    text-align: center;
+    
+}
